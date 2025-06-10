@@ -79,6 +79,10 @@ php artisan breezejp
 
 [GitHubからクローンしたリポジトリを別リポジトリにプッシュしたい](https://k-koh.hatenablog.com/entry/2020/10/09/154644)
 
+※⚠️リポジトリを変更してpushする際は、.envファイルをGit管理から除外すること
+```
+git rm --cached .env
+```
 # 参考文献
 - [Laravel10の開発環境をdockerで実現する方法](https://qiita.com/hitotch/items/869070c3a9f474a358ea)
 - [【最新保存版】Laravel入門基礎マスター講座【初心者もゼロから学習】](https://youtu.be/SXjrlVs5Tnk?si=Dmr5qMVMMF33_ejB)
